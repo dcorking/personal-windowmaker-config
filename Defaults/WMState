@@ -1,0 +1,288 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications768 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = xterm.XTerm;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        Command = xterm;
+      },
+      {
+        Forced = No;
+        Name = skype.Skype;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,5";
+        Lock = No;
+        PasteCommand = "skype %s";
+        Command = skype;
+      },
+      {
+        Forced = No;
+        Name = "google-chrome.Google-chrome";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "google-chrome %s";
+        Command = "google-chrome";
+      },
+      {
+        Forced = No;
+        Name = thunderbird.Thunderbird;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "thunderbird %s";
+        Command = thunderbird;
+      },
+      {
+        Forced = No;
+        Name = pavucontrol.Pavucontrol;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,6";
+        Lock = No;
+        PasteCommand = "pavucontrol %s";
+        Command = pavucontrol;
+      },
+      {
+        Forced = No;
+        Name = bubblemon.bubblemon;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "bubblemon %s";
+        Command = bubblemon;
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = "wmclock -24 -noblink";
+      },
+      {
+        Forced = No;
+        Name = docker.Docker;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = No;
+        PasteCommand = "wmdocker %s";
+        Command = wmdocker;
+      },
+      {
+        Forced = No;
+        Name = firefox.Firefox;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,9";
+        Lock = No;
+        PasteCommand = "firefox %s";
+        Command = firefox;
+      }
+    );
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = xterm.XTerm;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        Command = xterm;
+      },
+      {
+        Forced = No;
+        Name = skype.Skype;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,5";
+        Lock = No;
+        PasteCommand = "skype %s";
+        Command = skype;
+      },
+      {
+        Forced = No;
+        Name = "google-chrome.Google-chrome";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "google-chrome %s";
+        Command = "google-chrome";
+      },
+      {
+        Forced = No;
+        Name = thunderbird.Thunderbird;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "thunderbird %s";
+        Command = thunderbird;
+      },
+      {
+        Forced = No;
+        Name = pavucontrol.Pavucontrol;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,6";
+        Lock = No;
+        PasteCommand = "pavucontrol %s";
+        Command = pavucontrol;
+      },
+      {
+        Forced = No;
+        Name = bubblemon.bubblemon;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "bubblemon %s";
+        Command = bubblemon;
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = "wmclock -24 -noblink";
+      },
+      {
+        Forced = No;
+        Name = docker.Docker;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = No;
+        PasteCommand = "wmdocker %s";
+        Command = wmdocker;
+      },
+      {
+        Forced = No;
+        Name = firefox.Firefox;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,9";
+        Lock = No;
+        PasteCommand = "firefox %s";
+        Command = firefox;
+      }
+    );
+    Lowered = No;
+    Position = "-64,0";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,0";
+    Lock = No;
+    Command = "-";
+  };
+  Applications = ();
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = (
+          {
+            Forced = No;
+            Name = wmnd.wmnd;
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "0,3";
+            Lock = Yes;
+            PasteCommand = "wmnd %s";
+            Command = wmnd;
+            Omnipresent = Yes;
+          },
+          {
+            Forced = No;
+            Name = "gnome-terminal-server.Gnome-terminal-server";
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "0,1";
+            Lock = No;
+            PasteCommand = "gnome-terminal %s";
+            Command = "gnome-terminal";
+            Omnipresent = Yes;
+          },
+          {
+            Forced = No;
+            Name = emacs.Emacs;
+            BuggyApplication = No;
+            AutoLaunch = No;
+            Position = "0,2";
+            Lock = No;
+            PasteCommand = "emacs %s";
+            Command = emacs;
+            Omnipresent = Yes;
+          },
+          {
+            Forced = No;
+            Name = nautilus.Nautilus;
+            BuggyApplication = No;
+            AutoLaunch = No;
+            Position = "0,4";
+            Lock = No;
+            PasteCommand = "nautilus %s";
+            Command = nautilus;
+            Omnipresent = Yes;
+          }
+        );
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = Main;
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 2";
+    }
+  );
+  Workspace = Main;
+}
