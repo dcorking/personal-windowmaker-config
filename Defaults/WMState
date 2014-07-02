@@ -1,6 +1,6 @@
 {
   Dock = {
-    AutoRaiseLower = No;
+    AutoRaiseLower = Yes;
     Applications768 = (
       {
         Forced = No;
@@ -82,16 +82,6 @@
       },
       {
         Forced = No;
-        Name = docker.Docker;
-        BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,8";
-        Lock = No;
-        PasteCommand = "wmdocker %s";
-        Command = wmdocker;
-      },
-      {
-        Forced = No;
         Name = firefox.Firefox;
         BuggyApplication = No;
         AutoLaunch = No;
@@ -99,6 +89,16 @@
         Lock = No;
         PasteCommand = "firefox %s";
         Command = firefox;
+      },
+      {
+        Forced = No;
+        Name = wmsystemtray0.wmsystemtray;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = No;
+        PasteCommand = "wmsystemtray %s";
+        Command = wmsystemtray;
       }
     );
     Applications = (
@@ -182,16 +182,6 @@
       },
       {
         Forced = No;
-        Name = docker.Docker;
-        BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,8";
-        Lock = No;
-        PasteCommand = "wmdocker %s";
-        Command = wmdocker;
-      },
-      {
-        Forced = No;
         Name = firefox.Firefox;
         BuggyApplication = No;
         AutoLaunch = No;
@@ -199,6 +189,16 @@
         Lock = No;
         PasteCommand = "firefox %s";
         Command = firefox;
+      },
+      {
+        Forced = No;
+        Name = wmsystemtray0.wmsystemtray;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = No;
+        PasteCommand = "wmsystemtray %s";
+        Command = wmsystemtray;
       }
     );
     Lowered = No;
@@ -213,14 +213,37 @@
     Lock = No;
     Command = "-";
   };
-  Applications = ();
+  Applications = (
+    {
+      Dock = Main;
+      Name = "gnome-terminal-server.Gnome-terminal-server";
+      Shaded = No;
+      Miniaturized = No;
+      Command = "gnome-terminal-server";
+      Geometry = "591x293+81+18";
+      Hidden = No;
+      Workspace = Main;
+      ShortcutMask = 0;
+    }
+  );
   Drawers = ();
   Workspaces = (
     {
       Clip = {
-        AutoRaiseLower = No;
+        AutoRaiseLower = Yes;
         AutoCollapse = No;
         Applications = (
+          {
+            Forced = No;
+            Name = "Qt-subapplication.VirtualBox";
+            BuggyApplication = No;
+            AutoLaunch = No;
+            Position = "0,5";
+            Lock = No;
+            PasteCommand = "/usr/lib/virtualbox/VirtualBox %s";
+            Command = "/usr/lib/virtualbox/VirtualBox";
+            Omnipresent = Yes;
+          },
           {
             Forced = No;
             Name = wmnd.wmnd;
@@ -274,7 +297,7 @@
     },
     {
       Clip = {
-        AutoRaiseLower = No;
+        AutoRaiseLower = Yes;
         AutoCollapse = No;
         Applications = ();
         Collapsed = No;

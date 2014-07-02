@@ -9,3 +9,6 @@
 # This file must be executable.
 #
 
+# So the system tray doesn't fill with these things on restarts
+killall nm-applet
+

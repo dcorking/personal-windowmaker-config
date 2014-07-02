@@ -47,23 +47,23 @@
   wineboot.exe.Wine = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/wineboot.exe.Wine.xpm";
   };
-  yelp.Yelp = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/yelp.Yelp.xpm";
-  };
   oclock.Clock = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/oclock.Clock.xpm";
   };
-  emacs.Emacs = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/emacs.Emacs.xpm";
+  yelp.Yelp = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/yelp.Yelp.xpm";
   };
   gpick.Gpick = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gpick.Gpick.xpm";
   };
-  CloneVDI.exe.Wine = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/CloneVDI.exe.Wine.xpm";
+  emacs.Emacs = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/emacs.Emacs.xpm";
   };
   vlc.Vlc = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/vlc.Vlc.xpm";
+  };
+  CloneVDI.exe.Wine = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/CloneVDI.exe.Wine.xpm";
   };
   "file-roller.File-roller" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/file-roller.File-roller.xpm";
@@ -86,20 +86,20 @@
   gimp.Gimp = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gimp.Gimp.xpm";
   };
-  shotwell.Shotwell = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/shotwell.Shotwell.xpm";
-  };
   "Qt-subapplication.VirtualBox" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/Qt-subapplication.VirtualBox.xpm";
+  };
+  shotwell.Shotwell = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/shotwell.Shotwell.xpm";
   };
   "cmake-gui.Cmake-gui" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/cmake-gui.Cmake-gui.xpm";
   };
-  rhythmbox.Rhythmbox = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/rhythmbox.Rhythmbox.xpm";
-  };
   "gnome-terminal-server.Gnome-terminal-server" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-terminal-server.Gnome-terminal-server.xpm";
+  };
+  rhythmbox.Rhythmbox = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/rhythmbox.Rhythmbox.xpm";
   };
   junglediskdesktop.Junglediskdesktop = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/junglediskdesktop.Junglediskdesktop.xpm";
@@ -113,10 +113,10 @@
   "xfce4-notifyd-config.Xfce4-notifyd-config" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/xfce4-notifyd-config.Xfce4-notifyd-config.xpm";
   };
-  print.Print = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/print.Print.xpm";
-  };
   "google-chrome.Google-chrome" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/google-chrome.Google-chrome.xpm";
+  };
+  print.Print = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/print.Print.xpm";
   };
 }
