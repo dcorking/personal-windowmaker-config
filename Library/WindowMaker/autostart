@@ -13,12 +13,19 @@
 # end of the command line.
 #
 # This file must be executable.
-#
-# This starts the xscreensaver daemon. Then you can run
+
+# Start the xscreensaver daemon. Then you can run
 #      xscreensaver-command lock
 # to lock the screen, which will allow others to log in with
 # gdmflexiserver
 xscreensaver &
-#
-# Paints a clock and cycling background colour on the root window
+
+# Paint a clock and cycling background colour on the root window
 xdaliclock -cycle -root -noseconds -24 -font BUILTIN2 &
+
+# Jungle Disk
+junglediskdesktop &
+
+# I think networks should be run by the sysadmin, but I conceded to
+# the current trend of controlling WiFi at the desktop
+nm-applet &
