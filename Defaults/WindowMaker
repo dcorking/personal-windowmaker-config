@@ -1,5 +1,6 @@
 {
   LTCMaximizeKey = None;
+  CycleIgnoreMinimized = NO;
   LastWorkspaceKey = None;
   MoveToWorkspace9Key = None;
   PixmapPath = (
@@ -20,35 +21,52 @@
   WindowShortcut3Key = None;
   WindowRelaunchKey = None;
   WindowShortcut4Key = None;
+  NoWindowOverDock = NO;
   WorkspaceBack = (solid, "#554466");
   LBCMaximizeKey = None;
   WindowShortcut9Key = None;
+  HelpBalloons = YES;
   MoveResizeKey = None;
+  AppIconBalloons = YES;
   MoveToWorkspace8Key = None;
   LHMaximizeKey = "Mod4+Left";
   MoveToPrevWorkspaceKey = None;
   MoveToWorkspace6Key = None;
   MoveToWorkspace10Key = None;
+  KbdModeLock = NO;
   BHMaximizeKey = None;
+  CycleActiveHeadOnly = NO;
   MoveToWorkspace1Key = None;
+  ShowClipTitle = YES;
   WindowShortcut1Key = None;
   RHMaximizeKey = "Mod4+Right";
   THMaximizeKey = None;
-  WindowShortcut2Key = None;
   MoveToNextWorkspaceLayerKey = None;
+  WindowShortcut2Key = None;
   ToggleKbdModeKey = None;
+  DoNotMakeAppIconsBounce = NO;
+  MiniwindowTitleBalloons = YES;
   MaximusKey = "Mod4+M";
   WindowShortcut7Key = None;
+  OpaqueResize = NO;
+  RaiseAppIconsWhenBouncing = YES;
+  ResizeIncrement = 0;
   WindowShortcut8Key = None;
+  OpaqueMoveResizeKeyboard = NO;
   MoveToLastWorkspaceKey = None;
   GroupNextKey = None;
+  Attraction = NO;
+  SingleClickLaunch = NO;
+  AntialiasedText = YES;
+  DisableBlinking = NO;
   MoveToWorkspace5Key = None;
+  WorkspaceNameDisplayPosition = center;
   ScreenSwitchKey = None;
   MoveToNextWorkspaceKey = None;
   HMaximizeKey = None;
   GroupPrevKey = None;
-  MoveToWorkspace3Key = None;
   MinimizeAllKey = None;
+  MoveToWorkspace3Key = None;
   WindowShortcut5Key = None;
   HideOthersKey = None;
   IconPath = (
@@ -63,6 +81,10 @@
     "/usr/share/pixmaps"
   );
   WindowShortcut6Key = None;
+  ViKeyMenus = NO;
+  BounceAppIconsWhenUrgent = YES;
+  HighlightActiveApp = YES;
+  CirculateRaise = NO;
   MoveToWorkspace4Key = None;
   RTCMaximizeKey = None;
 }

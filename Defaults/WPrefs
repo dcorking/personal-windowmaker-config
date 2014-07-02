@@ -1,3 +1,4 @@
 {
-  BalloonHelp = NO;
+  NoXSetStuff = NO;
+  BalloonHelp = YES;
 }
