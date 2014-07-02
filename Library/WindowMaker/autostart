@@ -20,8 +20,8 @@
 # gdmflexiserver
 xscreensaver &
 
-# Paint a clock and cycling background colour on the root window
-xdaliclock -cycle -root -noseconds -24 -font BUILTIN2 &
+# Tap touchpad for primary mouse button
+synclient TapButton1=1
 
 # Jungle Disk
 junglediskdesktop &
