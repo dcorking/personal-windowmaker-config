@@ -235,35 +235,13 @@
         Applications = (
           {
             Forced = No;
-            Name = "Qt-subapplication.VirtualBox";
+            Name = nautilus.Nautilus;
             BuggyApplication = No;
             AutoLaunch = No;
-            Position = "0,5";
+            Position = "0,4";
             Lock = No;
-            PasteCommand = "/usr/lib/virtualbox/VirtualBox %s";
-            Command = "/usr/lib/virtualbox/VirtualBox";
-            Omnipresent = Yes;
-          },
-          {
-            Forced = No;
-            Name = wmnd.wmnd;
-            BuggyApplication = No;
-            AutoLaunch = Yes;
-            Position = "0,3";
-            Lock = Yes;
-            PasteCommand = "wmnd %s";
-            Command = wmnd;
-            Omnipresent = Yes;
-          },
-          {
-            Forced = No;
-            Name = "gnome-terminal-server.Gnome-terminal-server";
-            BuggyApplication = No;
-            AutoLaunch = Yes;
-            Position = "0,1";
-            Lock = No;
-            PasteCommand = "gnome-terminal %s";
-            Command = "gnome-terminal";
+            PasteCommand = "nautilus %s";
+            Command = nautilus;
             Omnipresent = Yes;
           },
           {
@@ -279,13 +257,35 @@
           },
           {
             Forced = No;
-            Name = nautilus.Nautilus;
+            Name = "gnome-terminal-server.Gnome-terminal-server";
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "0,1";
+            Lock = No;
+            PasteCommand = "gnome-terminal %s";
+            Command = "gnome-terminal";
+            Omnipresent = Yes;
+          },
+          {
+            Forced = No;
+            Name = wmnd.wmnd;
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "0,3";
+            Lock = Yes;
+            PasteCommand = "wmnd %s";
+            Command = wmnd;
+            Omnipresent = Yes;
+          },
+          {
+            Forced = No;
+            Name = "Qt-subapplication.VirtualBox";
             BuggyApplication = No;
             AutoLaunch = No;
-            Position = "0,4";
+            Position = "0,5";
             Lock = No;
-            PasteCommand = "nautilus %s";
-            Command = nautilus;
+            PasteCommand = "/usr/lib/virtualbox/VirtualBox %s";
+            Command = "/usr/lib/virtualbox/VirtualBox";
             Omnipresent = Yes;
           }
         );
