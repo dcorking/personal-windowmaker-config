@@ -29,6 +29,8 @@
     (System, (top, EXEC, "xterm -e top")),
     ("P2P Network", (sftp, EXEC, "xterm -e sftp"))
   ),
+  (Lock, SHEXEC, "xscreensaver-command -lock"),
+  (Screensaver, SHEXEC, "xscreensaver-demo"),
   (Run..., SHEXEC, "%A(Run, Type command:)"),
   (
     Appearance,
