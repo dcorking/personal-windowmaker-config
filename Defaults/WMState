@@ -25,7 +25,7 @@
         Name = skype.Skype;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,5";
+        Position = "0,11";
         Lock = No;
         PasteCommand = "skype %s";
         Command = skype;
@@ -35,7 +35,7 @@
         Name = "google-chrome.Google-chrome";
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,4";
+        Position = "0,6";
         Lock = No;
         PasteCommand = "google-chrome %s";
         Command = "google-chrome";
@@ -45,7 +45,7 @@
         Name = thunderbird.Thunderbird;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,7";
+        Position = "0,9";
         Lock = No;
         PasteCommand = "thunderbird %s";
         Command = thunderbird;
@@ -55,7 +55,7 @@
         Name = pavucontrol.Pavucontrol;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,6";
+        Position = "0,7";
         Lock = No;
         PasteCommand = "pavucontrol %s";
         Command = pavucontrol;
@@ -85,7 +85,7 @@
         Name = firefox.Firefox;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,9";
+        Position = "0,10";
         Lock = No;
         PasteCommand = "firefox %s";
         Command = firefox;
@@ -99,6 +99,26 @@
         Lock = No;
         PasteCommand = "wmsystemtray %s";
         Command = wmsystemtray;
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = "wmnd -i wlp1s0";
       }
     );
     Applications = (
@@ -125,7 +145,7 @@
         Name = skype.Skype;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,5";
+        Position = "0,11";
         Lock = No;
         PasteCommand = "skype %s";
         Command = skype;
@@ -135,7 +155,7 @@
         Name = "google-chrome.Google-chrome";
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,4";
+        Position = "0,6";
         Lock = No;
         PasteCommand = "google-chrome %s";
         Command = "google-chrome";
@@ -145,7 +165,7 @@
         Name = thunderbird.Thunderbird;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,7";
+        Position = "0,9";
         Lock = No;
         PasteCommand = "thunderbird %s";
         Command = thunderbird;
@@ -155,7 +175,7 @@
         Name = pavucontrol.Pavucontrol;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,6";
+        Position = "0,7";
         Lock = No;
         PasteCommand = "pavucontrol %s";
         Command = pavucontrol;
@@ -185,7 +205,7 @@
         Name = firefox.Firefox;
         BuggyApplication = No;
         AutoLaunch = No;
-        Position = "0,9";
+        Position = "0,10";
         Lock = No;
         PasteCommand = "firefox %s";
         Command = firefox;
@@ -199,6 +219,26 @@
         Lock = No;
         PasteCommand = "wmsystemtray %s";
         Command = wmsystemtray;
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = "wmnd -i wlp1s0";
       }
     );
     Lowered = No;
@@ -213,19 +253,6 @@
     Lock = No;
     Command = "-";
   };
-  Applications = (
-    {
-      Dock = Main;
-      Name = "gnome-terminal-server.Gnome-terminal-server";
-      Shaded = No;
-      Miniaturized = No;
-      Command = "gnome-terminal-server";
-      Geometry = "591x293+81+18";
-      Hidden = No;
-      Workspace = Main;
-      ShortcutMask = 0;
-    }
-  );
   Drawers = ();
   Workspaces = (
     {
@@ -235,24 +262,13 @@
         Applications = (
           {
             Forced = No;
-            Name = nautilus.Nautilus;
+            Name = "Qt-subapplication.VirtualBox";
             BuggyApplication = No;
             AutoLaunch = No;
             Position = "0,4";
             Lock = No;
-            PasteCommand = "nautilus %s";
-            Command = nautilus;
-            Omnipresent = Yes;
-          },
-          {
-            Forced = No;
-            Name = emacs.Emacs;
-            BuggyApplication = No;
-            AutoLaunch = No;
-            Position = "0,2";
-            Lock = No;
-            PasteCommand = "emacs %s";
-            Command = emacs;
+            PasteCommand = "/usr/lib/virtualbox/VirtualBox %s";
+            Command = "/usr/lib/virtualbox/VirtualBox";
             Omnipresent = Yes;
           },
           {
@@ -268,24 +284,24 @@
           },
           {
             Forced = No;
-            Name = wmnd.wmnd;
+            Name = emacs.Emacs;
             BuggyApplication = No;
-            AutoLaunch = Yes;
-            Position = "0,3";
-            Lock = Yes;
-            PasteCommand = "wmnd %s";
-            Command = wmnd;
+            AutoLaunch = No;
+            Position = "0,2";
+            Lock = No;
+            PasteCommand = "emacs %s";
+            Command = emacs;
             Omnipresent = Yes;
           },
           {
             Forced = No;
-            Name = "Qt-subapplication.VirtualBox";
+            Name = nautilus.Nautilus;
             BuggyApplication = No;
             AutoLaunch = No;
-            Position = "0,5";
+            Position = "0,3";
             Lock = No;
-            PasteCommand = "/usr/lib/virtualbox/VirtualBox %s";
-            Command = "/usr/lib/virtualbox/VirtualBox";
+            PasteCommand = "nautilus %s";
+            Command = nautilus;
             Omnipresent = Yes;
           }
         );
@@ -305,7 +321,17 @@
         Lowered = Yes;
       };
       Name = "Workspace 2";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 3";
     }
   );
-  Workspace = Main;
 }
