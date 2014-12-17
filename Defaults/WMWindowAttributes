@@ -1,15 +1,21 @@
 {
-  soffice.Soffice = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  "qemu-system-arm.Qemu-system-arm" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/qemu-system-arm.Qemu-system-arm.xpm";
   };
-  firefox.Firefox = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/firefox.Firefox.xpm";
+  gnucash.Gnucash = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gnucash.Gnucash.xpm";
   };
   "firewall-config.Firewall-config" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/firewall-config.Firewall-config.xpm";
   };
-  gnucash.Gnucash = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gnucash.Gnucash.xpm";
+  firefox.Firefox = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/firefox.Firefox.xpm";
+  };
+  soffice.Soffice = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  };
+  allegro.Allegro = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/allegro.Allegro.xpm";
   };
   pavucontrol.Pavucontrol = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/pavucontrol.Pavucontrol.xpm";
@@ -17,11 +23,17 @@
   totem.Totem = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/totem.Totem.xpm";
   };
+  "nm-connection-editor.Nm-connection-editor" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/nm-connection-editor.Nm-connection-editor.xpm";
+  };
   thunderbird.Thunderbird = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/thunderbird.Thunderbird.xpm";
   };
   "gnome-control-center.Gnome-control-center" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-control-center.Gnome-control-center.xpm";
+  };
+  cheese.Cheese = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/cheese.Cheese.xpm";
   };
   "gpk-dbus-service.Gpk-dbus-service" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gpk-dbus-service.Gpk-dbus-service.xpm";
@@ -29,14 +41,17 @@
   evince.Evince = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/evince.Evince.xpm";
   };
-  screenshot.Screenshot = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/screenshot.Screenshot.xpm";
-  };
   FBReader.FBReader = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/FBReader.FBReader.xpm";
   };
+  screenshot.Screenshot = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/screenshot.Screenshot.xpm";
+  };
   gedit.Gedit = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
+  };
+  "shoes-hello.rb.Shoes-hello.rb" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/shoes-hello.rb.Shoes-hello.rb.xpm";
   };
   xchat.Xchat = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/xchat.Xchat.xpm";
@@ -44,26 +59,32 @@
   groupLeader.WPrefs = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/groupLeader.WPrefs.xpm";
   };
+  konqueror.Konqueror = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/konqueror.Konqueror.xpm";
+  };
+  "crack-attack.Crack-attack" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/crack-attack.Crack-attack.xpm";
+  };
   wineboot.exe.Wine = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/wineboot.exe.Wine.xpm";
-  };
-  oclock.Clock = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/oclock.Clock.xpm";
   };
   yelp.Yelp = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/yelp.Yelp.xpm";
   };
-  gpick.Gpick = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gpick.Gpick.xpm";
+  oclock.Clock = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/oclock.Clock.xpm";
   };
   emacs.Emacs = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/emacs.Emacs.xpm";
   };
-  vlc.Vlc = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/vlc.Vlc.xpm";
+  gpick.Gpick = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gpick.Gpick.xpm";
   };
   CloneVDI.exe.Wine = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/CloneVDI.exe.Wine.xpm";
+  };
+  vlc.Vlc = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/vlc.Vlc.xpm";
   };
   "file-roller.File-roller" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/file-roller.File-roller.xpm";
@@ -71,11 +92,23 @@
   skype.Skype = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/skype.Skype.xpm";
   };
+  "bluetooth-wizard.Bluetooth-wizard" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/bluetooth-wizard.Bluetooth-wizard.xpm";
+  };
+  aseprite.exe.Wine = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/aseprite.exe.Wine.xpm";
+  };
   xclock.XClock = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/xclock.XClock.xpm";
   };
+  "nm-applet.Nm-applet" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/nm-applet.Nm-applet.xpm";
+  };
   "calibre-gui.Calibre-gui" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-gui.Calibre-gui.xpm";
+  };
+  meld.Meld = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/meld.Meld.xpm";
   };
   "calibre-ebook-viewer.Calibre-ebook-viewer" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-ebook-viewer.Calibre-ebook-viewer.xpm";
@@ -83,17 +116,26 @@
   "gnome-help.Gnome-help" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-help.Gnome-help.xpm";
   };
+  acroread.Acroread = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/acroread.Acroread.xpm";
+  };
   gimp.Gimp = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gimp.Gimp.xpm";
-  };
-  "Qt-subapplication.VirtualBox" = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/Qt-subapplication.VirtualBox.xpm";
   };
   shotwell.Shotwell = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/shotwell.Shotwell.xpm";
   };
+  "Qt-subapplication.VirtualBox" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/Qt-subapplication.VirtualBox.xpm";
+  };
   "cmake-gui.Cmake-gui" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/cmake-gui.Cmake-gui.xpm";
+  };
+  drracket.Drracket = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/drracket.Drracket.xpm";
+  };
+  "bluetooth-sendto.Bluetooth-sendto" = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/bluetooth-sendto.Bluetooth-sendto.xpm";
   };
   "gnome-terminal-server.Gnome-terminal-server" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-terminal-server.Gnome-terminal-server.xpm";
@@ -109,6 +151,9 @@
   };
   nautilus.Nautilus = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/nautilus.Nautilus.xpm";
+  };
+  irb.Irb = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/irb.Irb.xpm";
   };
   "xfce4-notifyd-config.Xfce4-notifyd-config" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/xfce4-notifyd-config.Xfce4-notifyd-config.xpm";
