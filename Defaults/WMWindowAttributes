@@ -29,11 +29,14 @@
   thunderbird.Thunderbird = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/thunderbird.Thunderbird.xpm";
   };
+  cheese.Cheese = {
+    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/cheese.Cheese.xpm";
+  };
   "gnome-control-center.Gnome-control-center" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-control-center.Gnome-control-center.xpm";
   };
-  cheese.Cheese = {
-    Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/cheese.Cheese.xpm";
+  xterm.XTerm = {
+    Icon = linuxterm.tiff;
   };
   "gpk-dbus-service.Gpk-dbus-service" = {
     Icon = "/home/david1/GNUstep/Library/WindowMaker/CachedPixmaps/gpk-dbus-service.Gpk-dbus-service.xpm";
