@@ -37,8 +37,8 @@
         AutoLaunch = No;
         Position = "0,6";
         Lock = No;
-        PasteCommand = "google-chrome %s";
-        Command = "google-chrome";
+        PasteCommand = "google-chrome --incognito %s";
+        Command = "google-chrome --incognito";
       },
       {
         Forced = No;
@@ -157,8 +157,8 @@
         AutoLaunch = No;
         Position = "0,6";
         Lock = No;
-        PasteCommand = "google-chrome %s";
-        Command = "google-chrome";
+        PasteCommand = "google-chrome --incognito %s";
+        Command = "google-chrome --incognito";
       },
       {
         Forced = No;
